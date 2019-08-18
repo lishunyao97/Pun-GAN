@@ -6,7 +6,7 @@ This repo contains code for the following paper.
 
 In this paper, we focus on the task of generating a pun sentence given a pair of word senses. A major challenge for pun generation is the lack of large-scale pun corpus to guide the supervised learning. To remedy this, we propose an adversarial generative network for pun generation (Pun-GAN). It consists of a generator to produce pun sentences, and a discriminator to distinguish between the generated pun sentences and the real sentences with specific word senses. The output of the discriminator is then used as a reward to train the generator via reinforcement learning, encouraging it to produce pun sentences which can support two word senses simultaneously.
 
-![model](/Users/lishunyao/Desktop/pun_opensource/image/model.png)
+![model](./image/model.png)
 
 ## Quick Start
 

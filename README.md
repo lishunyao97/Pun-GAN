@@ -10,7 +10,7 @@ In this paper, we focus on the task of generating a pun sentence given a pair of
 
 ## Quick Start
 
-1. Pretrain pun generation model, which can be divided into two backward and forward parts.
+1. Pretrain pun generation model, which can be divided into two parts: backward and forward.
 
 ```bash
 # pretrain backward model
